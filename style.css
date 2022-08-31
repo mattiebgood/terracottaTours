@@ -1,4 +1,70 @@
+:root {
+  --color-white: #FFFFFF;
+  --color-orange: #F7B180;
+  --color-green: #18471B;
+  --color-black: #000000;
+}
+
 html, body {
   margin: 0;
   padding: 0;
+}
+
+/**
+* ! Start of Nav Section
+**/
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .logo img {
+  padding-right: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  padding-right: 25px;
+  color: var(--color-green);
+}
+
+nav button {
+  padding: 7px;
+  margin-left: 5px;
+}
+
+nav .contact-btn {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-green);
+  border-radius: 5px;
+  color: var(--color-green);
+}
+
+nav .book-btn {
+  background-color: var(--color-green);
+  border: 1px solid var(--color-green);
+  border-radius: 5px;
+  color: var(--color-white);
+}
+
+/**
+* ! Start Of Main Section
+**/
+
+main img {
+  position: absolute;
+  z-index: -1;
+}
+
+main .content {
+  align-items: center;
+  text-align: center;
 }
