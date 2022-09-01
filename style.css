@@ -10,9 +10,48 @@ html, body {
   padding: 0;
 }
 
-/**
-* ! Start of Nav Section
-**/
+.awards {
+  display: flex;
+  background-color: pink;
+}
+
+.awards img {
+  width: 282px;
+}
+
+.featured {
+  display: flex;
+  background-color: #F7B180;
+}
+
+.featured img {
+  width: 750px;
+}
+
+.allCards {
+  display:flex;
+  flex-wrap:wrap;
+  text-align: center;
+}
+
+.cards {
+  border: 1px solid black;
+}
+
+.cards img {
+  width: 429px;
+  height: 275px;
+}
+
+.booking {
+  display:flex;
+  background-color:#F7B180;
+}
+
+.footer img {
+  width: 44px;
+  height: 44px;
+}
 
 header {
   display: flex;
@@ -54,10 +93,6 @@ nav .book-btn {
   border-radius: 5px;
   color: var(--color-white);
 }
-
-/**
-* ! Start Of Main Section
-**/
 
 main img {
   position: absolute;
