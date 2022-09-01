@@ -2,3 +2,37 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+.awards {
+  background-color: pink;
+}
+
+.featured {
+  display:flex;
+  background-color:#F7B180;
+}
+.featured img {
+  width: 750px;
+}
+
+.cardSection {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.allCards {
+  text-align: center;
+  padding-left: 0;
+  border: 2px solid black;
+  margin: 84px;
+}
+
+/*
+.allCards p {
+  margin: 0 64px 64px 64px;
+}*/
+
+.allCards img {
+  width: 429px;
+  height: 275px;
+}
