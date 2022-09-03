@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
 :root {
   --color-white: #FFFFFF;
   --color-orange: #F7B180;
@@ -19,6 +22,7 @@ header {
   justify-content: space-around;
   align-items: center;
   height: auto;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header .logo {
@@ -30,13 +34,19 @@ header .logo img {
   padding-right: 25px;
 }
 
-nav a {
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+nav ul a {
   text-decoration: none;
   padding-right: 25px;
   color: var(--color-green);
 }
 
-nav button {
+nav ul button {
   padding: 7px;
   margin-left: 5px;
 }
@@ -56,15 +66,81 @@ nav .book-btn {
 }
 
 /**
-* ! Start Of Main Section
+* ! Start Of Main 
 **/
 
-main img {
-  position: absolute;
+main .background {
   z-index: -1;
 }
 
 main .content {
-  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  right: 25%;
   text-align: center;
+}
+
+main .content h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 3rem;
+  font-weight: 100;
+  text-shadow: 1px 1px 5px black;
+  color: var(--color-orange);
+}
+
+main .content button {
+  background-color: var(--color-green);
+  border: none;
+  border-radius: 5px;
+  color: var(--color-white);
+  padding: 10px;
+}
+
+/**
+* ! Start of Article
+**/
+
+main article {
+  padding: 15px 50px;
+  margin-bottom: 75px;
+}
+
+main article h1 {
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+main article button {
+  padding: 7px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-green);
+  border-radius: 5px;
+  color: var(--color-green);
+}
+
+main .award-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/**
+* ! Start Of Section
+**/
+
+section {
+  display: flex;
+  background-color: var(--color-orange);
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+section img {
+  padding: 50px 60px;
+}
+
+section aside {
+  width: 40%;
 }
