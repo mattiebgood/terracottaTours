@@ -1,9 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+:root {
+  --color-white: #FFFFFF;
+  --color-orange: #F7B180;
+  --color-green: #18471B;
+  --color-black: #000000;
+}
+
 html, body {
   margin: 0;
   padding: 0;
 }
 
 .awards {
+<<<<<<< HEAD
   background-color: pink;
 }
 
@@ -11,16 +22,32 @@ html, body {
   display:flex;
   background-color:#F7B180;
 }
+
+  display: flex;
+  background-color: pink;
+}
+
+.awards {
+  width: 800px;
+}
+
+.featured {
+  display: flex;
+  background-color: #F7B180;
+}
+
+>>>>>>> f58e5e00cdca06d6fcb6ce785db1308c33004317
 .featured img {
   width: 750px;
 }
 
+<<<<<<< HEAD
 .cardSection {
-  display: flex;
-  flex-wrap: wrap;
   text-align: center;
 }
 .allCards {
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
   padding-left: 0;
   border: 2px solid black;
@@ -36,3 +63,132 @@ html, body {
   width: 429px;
   height: 275px;
 }
+=======
+.allCards {
+  display:flex;
+  flex-wrap:wrap;
+  text-align: center;
+}
+
+.cards {
+  border: 1px solid black;
+}
+
+.cards img {
+  width: 429px;
+  height: 275px;
+}
+
+.booking {
+  display:flex;
+  background-color:#F7B180;
+}
+
+.footer img {
+  width: 44px;
+  height: 44px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .logo img {
+  padding-right: 25px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+nav ul a {
+  text-decoration: none;
+  padding-right: 25px;
+  color: var(--color-green);
+}
+
+nav ul button {
+  padding: 7px;
+  margin-left: 5px;
+}
+
+nav .contact-btn {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-green);
+  border-radius: 5px;
+  color: var(--color-green);
+}
+
+nav .book-btn {
+  background-color: var(--color-green);
+  border: 1px solid var(--color-green);
+  border-radius: 5px;
+  color: var(--color-white);
+}
+
+
+/**
+* ! Start Of Main 
+**/
+
+main .background {
+  z-index: -1;
+}
+
+main .content {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  right: 25%;
+  text-align: center;
+}
+
+main .content h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 3rem;
+  font-weight: 100;
+  text-shadow: 1px 1px 5px black;
+  color: var(--color-orange);
+}
+
+main .content button {
+  background-color: var(--color-green);
+  border: none;
+  border-radius: 5px;
+  color: var(--color-white);
+  padding: 10px;
+}
+
+/**
+* ! Start of Article
+**/
+
+main article {
+  padding: 15px 50px;
+  margin-bottom: 75px;
+}
+
+main article h1 {
+  font-weight: 200;
+  font-size: 2rem;
+}
+
+main article button {
+  padding: 7px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-green);
+  border-radius: 5px;
+  color: var(--color-green);
+}
+>>>>>>> f58e5e00cdca06d6fcb6ce785db1308c33004317
