@@ -14,7 +14,6 @@ html, body {
 }
 
 .awards {
-<<<<<<< HEAD
   background-color: pink;
 }
 
@@ -23,28 +22,14 @@ html, body {
   background-color:#F7B180;
 }
 
-  display: flex;
-  background-color: pink;
-}
-
-.awards {
-  width: 800px;
-}
-
-.featured {
-  display: flex;
-  background-color: #F7B180;
-}
-
->>>>>>> f58e5e00cdca06d6fcb6ce785db1308c33004317
 .featured img {
   width: 750px;
 }
 
-<<<<<<< HEAD
 .cardSection {
   text-align: center;
 }
+
 .allCards {
   display: flex;
   flex-wrap: wrap;
@@ -52,22 +37,6 @@ html, body {
   padding-left: 0;
   border: 2px solid black;
   margin: 84px;
-}
-
-/*
-.allCards p {
-  margin: 0 64px 64px 64px;
-}*/
-
-.allCards img {
-  width: 429px;
-  height: 275px;
-}
-=======
-.allCards {
-  display:flex;
-  flex-wrap:wrap;
-  text-align: center;
 }
 
 .cards {
