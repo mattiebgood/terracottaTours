@@ -134,6 +134,7 @@ main article button {
   display:flex;
   align-items:center;
   background-color:#F7B180;
+  padding: 80px
 }
 
 .featured img {
@@ -143,6 +144,19 @@ main article button {
 .featured-text {
   display: flex;
   flex-direction: column;
+  margin-left: 70px;
+}
+
+.cardHeader h2 {
+  text-align: left;
+  font-family: 'Montserrat';
+  font-size: 48px;
+  margin-top: 180px;
+  margin-left:80px;
+}
+
+.cardHeader p {
+  text-align: left;
 }
 
 .cardSection {
