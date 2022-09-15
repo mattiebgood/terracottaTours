@@ -215,10 +215,11 @@ main article button {
 
 
 .footer {
+  height: 425px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: end;
 }
 
 .footer img {
