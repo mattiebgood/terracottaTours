@@ -115,20 +115,14 @@ main article button {
   border-radius: 5px;
   color: var(--color-green);
 }
->>>>>>> f58e5e00cdca06d6fcb6ce785db1308c33004317
 
-
-.awards {
+.awards{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.awards img{
-  height: 250px;
-  width: 282px;
-  padding: 20px;
-}
 
 .featured {
   display:flex;
